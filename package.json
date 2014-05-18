@@ -1,0 +1,35 @@
+{
+  "name": "tex-control",
+  "version": "0.0.0",
+  "description": "Control TeX builds from Node.js.",
+  "main": "lib/tex-control.js",
+  "dependencies": {
+    "async": "0.2.9",
+    "lodash": "2.4.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-jshint": "0.7.1",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-mocha-test": "0.7.0",
+    "node-assertthat": "0.0.21",
+    "proxyquire": "0.5.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitzl/node-tex-control.git"
+  },
+  "keywords": [
+    "TeX",
+    "LaTeX"
+  ],
+  "author": "Marcus Bitzl",
+  "license": "Apache License v2",
+  "bugs": {
+    "url": "https://github.com/bitzl/node-tex-control/issues"
+  },
+  "homepage": "https://github.com/bitzl/node-tex-control"
+}
